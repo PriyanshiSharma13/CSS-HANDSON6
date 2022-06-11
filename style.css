@@ -1,0 +1,130 @@
+body{
+    background-image: url(sahara-desert.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    width: 8%;
+    height: 60px;
+    position: relative;
+    left: 5%;
+    top: 20px;
+}
+.nav{
+    width: max-content;
+    position: absolute;
+    top: 40px;
+    right: 5%;
+}
+.n{
+    padding: 30px;
+    color: rgb(174, 221, 240);
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-weight: bold;
+}
+.hamburger{
+    position: absolute;
+    top: 30px;
+    right: 1%;
+}
+.box1{
+    width: 40%;
+    height: 350px;
+    position: absolute;
+    top: 120px;
+    left: 5%;
+}
+.sahara{
+    color: #9c0781;
+    text-shadow: 4px 4px 4px rgb(88, 126, 12);
+    font-size: 4.5rem;
+    letter-spacing: 1vw;
+    font-family: 'Righteous', cursive;
+}
+.sahara:hover {
+    color: #000000;
+    text-shadow: 4px 4px 4px #F0A500;
+}
+.lorem{
+    color:ghostwhite;
+    text-shadow: 2px 2px 2px #0A043C;
+    font-size: 1.1rem;
+    line-height: 28px;
+}
+.btn{
+    width: 22%;
+    height: 34px;
+    color: darkblue;
+    text-shadow: 1px 1px 1px yellow;
+    font-size: larger;
+    font-family: 'Acme', sans-serif;
+    border: 3px ridge purple;
+    border-radius: 25px;
+    background-image: linear-gradient(180deg, rgb(72, 211, 199), rgb(23, 36, 114));
+}
+.btn:hover {
+    color: #000000;
+    text-shadow: 1px 1px 2px hotpink;
+}
+.n:hover {
+    color: black;
+}
+.gridbox{
+    width: 48%;
+    height: 470px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 34px 14px;
+    position: absolute;
+    top: 110px;
+    right: 2vw;
+}
+.card1{
+    width: 70%;
+    height: 226px;
+    padding-left: 5%;
+    border-radius: 20px;
+    background-image: url(pic-1.png);
+    background-size: cover;
+}
+/* .card1:hover {
+    margin-top: 0%;
+    transition-duration: 1s;
+} */
+.card2{
+    width: 70%;
+    height: 226px;
+    padding-left: 5%;
+    border-radius: 20px;
+    background-image: url(pic-2.png);
+    background-size: cover;
+}
+.card3{
+    width: 70%;
+    height: 226px;
+    padding-left: 5%;
+    border-radius: 20px;
+    background-image: url(pic-3.png);
+    background-size: cover;
+}
+.card4{
+    width: 70%;
+    height: 226px;
+    padding-left: 5%;
+    border-radius: 20px;
+    background-image: url(pic-4.png);
+    background-size: cover;
+}
+.heading{
+    color: darkslateblue;
+    font-family: 'Righteous', cursive;
+    font-size: 1.1rem;
+    text-shadow: 1px 1px 1px #F0A500;   
+}
+.para1{
+    color: white;
+}
+
+
