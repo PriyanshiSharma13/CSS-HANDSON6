@@ -72,14 +72,13 @@ body{
 }
 .gridbox{
     width: 48%;
-    height: 470px;
+    height: 500px;
     display: grid;
-    grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    gap: 34px 14px;
-    position: absolute;
-    top: 110px;
-    right: 2vw;
+    grid-template-columns: auto auto;
+    gap: 44px 10px;
+    margin-top: 30px;
+    margin-left: 50%;
 }
 .card1{
     width: 70%;
@@ -89,10 +88,6 @@ body{
     background-image: url(pic-1.png);
     background-size: cover;
 }
-/* .card1:hover {
-    margin-top: 0%;
-    transition-duration: 1s;
-} */
 .card2{
     width: 70%;
     height: 226px;
@@ -126,5 +121,54 @@ body{
 .para1{
     color: white;
 }
+.card1:hover, .card2:hover, .card3:hover, .card4:hover {
+    transition: 0.5s;
+    margin-top: 5px;
+}
+/* Media Query for (max-width:856px) */
+@media only screen and (max-width: 856px) {
+    .logo{
+        width: 15%;
+    }
+    .nav{
+        top: 30px;
+        right: 15%;   
+    }
+    .hamburger{
+        top: 20px;
+        right: 8%;
+    }
+    .n{
+        padding: 5px;
+    }
+    .box1{
+        width: 90%;
+        display: inline-block;
+        position: absolute;
+        top: 100px;
+    }
+    .sahara{
+        font-size: 4em;
+    }
+    .gridbox{
+        width: 90%;
+        display: grid;
+        grid-template-columns: auto;
+        position: absolute;
+        top: 450px;
+        right: 5%;
+        align-items: center;
+    }
+    .card1, .card2, .card3, .card4 {
+        width: 80%;
+        height: 250px;
+    }
+    .para1{
+        display: inline-block;
+        font-size: medium;
+    }
+}
+
+
 
 
